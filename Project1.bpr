@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj TH\crp_pc\cntr.obj TH\crp_pc\crc32.obj 
+      TH\crp_pc\golay23.obj TH\crp_pc\havege.obj TH\crp_pc\KeccakP800.obj 
+      TH\crp_pc\shake.obj TH\crp_pc\timing.obj TH\crp_pc\trng.obj 
+      TH\ecc_pc\add.obj TH\ecc_pc\copy.obj TH\ecc_pc\cswap.obj 
+      TH\ecc_pc\from_bytes.obj TH\ecc_pc\invert.obj TH\ecc_pc\mul.obj 
+      TH\ecc_pc\mul121665.obj TH\ecc_pc\r2p.obj TH\ecc_pc\scalarmult.obj 
+      TH\ecc_pc\sqr.obj TH\ecc_pc\sub.obj TH\ecc_pc\to_bytes.obj 
+      TH\hw_pc\audio_dev.obj TH\hw_pc\audio_wave8.obj TH\hw_pc\audio_wave48.obj 
+      TH\hw_pc\comport.obj TH\hw_pc\comtest.obj TH\hw_pc\sound.obj 
+      TH\melpe_pc\classify.obj TH\melpe_pc\coeff.obj TH\melpe_pc\dsp_sub.obj 
+      TH\melpe_pc\fec_code.obj TH\melpe_pc\fft_lib.obj TH\melpe_pc\fs_lib.obj 
+      TH\melpe_pc\fsvq_cb.obj TH\melpe_pc\global.obj TH\melpe_pc\harm.obj 
+      TH\melpe_pc\lpc_lib.obj TH\melpe_pc\mat_lib.obj TH\melpe_pc\math_lib.obj 
+      TH\melpe_pc\mathdp31.obj TH\melpe_pc\mathhalf.obj TH\melpe_pc\melp_ana.obj 
+      TH\melpe_pc\melp_chn.obj TH\melpe_pc\melp_sub.obj TH\melpe_pc\melp_syn.obj 
+      TH\melpe_pc\melpe.obj TH\melpe_pc\msvq_cb.obj TH\melpe_pc\npp.obj 
+      TH\melpe_pc\pit_lib.obj TH\melpe_pc\pitch.obj TH\melpe_pc\postfilt.obj 
+      TH\melpe_pc\qnt12.obj TH\melpe_pc\qnt12_cb.obj TH\melpe_pc\vq_lib.obj 
+      TH\main.obj TH\mdm_jp\plsmdm.obj TH\mdm_jp\pskmdm.obj"/>
+    <RESFILES value="Project1.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi dsnapcrba.bpi dsnapcon.bpi vclie.bpi 
+      xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi 
+      webdsnap.bpi bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi 
+      dbxcds.bpi indy.bpi bcb97axserver.bpi dclusr.bpi Comm.bpi"/>
+    <PATHCPP value=".;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\crp_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\ecc_pc;TH\hw_pc;TH\hw_pc;TH\hw_pc;TH\hw_pc;TH\hw_pc;TH\hw_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH\melpe_pc;TH;TH\mdm_jp;TH\mdm_jp"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-ITH -ITH\mdm_jp -ITH\melpe_pc -ITH\mdm_pc -ITH\hw_pc -ITH\ecc_pc 
+      -ITH\crp_pc -Ihw_pc -Icrp_pc -Iecc_pc -Imdm_pc 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -ID:\1\VHFMDM_PC 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="Form1" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\cntr.c" FORMNAME="" UNITNAME="cntr.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\crc32.c" FORMNAME="" UNITNAME="crc32.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\golay23.c" FORMNAME="" UNITNAME="golay23.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\havege.c" FORMNAME="" UNITNAME="havege.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\KeccakP800.c" FORMNAME="" UNITNAME="KeccakP800.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\shake.c" FORMNAME="" UNITNAME="shake.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\timing.c" FORMNAME="" UNITNAME="timing.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\crp_pc\trng.c" FORMNAME="" UNITNAME="trng.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\add.c" FORMNAME="" UNITNAME="add.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\copy.c" FORMNAME="" UNITNAME="copy.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\cswap.c" FORMNAME="" UNITNAME="cswap.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\from_bytes.c" FORMNAME="" UNITNAME="from_bytes.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\invert.c" FORMNAME="" UNITNAME="invert.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\mul.c" FORMNAME="" UNITNAME="mul.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\mul121665.c" FORMNAME="" UNITNAME="mul121665.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\r2p.c" FORMNAME="" UNITNAME="r2p.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\scalarmult.c" FORMNAME="" UNITNAME="scalarmult.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\sqr.c" FORMNAME="" UNITNAME="sqr.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\sub.c" FORMNAME="" UNITNAME="sub.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\ecc_pc\to_bytes.c" FORMNAME="" UNITNAME="to_bytes.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\audio_dev.c" FORMNAME="" UNITNAME="audio_dev.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\audio_wave8.c" FORMNAME="" UNITNAME="audio_wave8.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\audio_wave48.c" FORMNAME="" UNITNAME="audio_wave48.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\comport.c" FORMNAME="" UNITNAME="comport.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\comtest.c" FORMNAME="" UNITNAME="comtest.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\hw_pc\sound.c" FORMNAME="" UNITNAME="sound.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\classify.c" FORMNAME="" UNITNAME="classify.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\coeff.c" FORMNAME="" UNITNAME="coeff.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\dsp_sub.c" FORMNAME="" UNITNAME="dsp_sub.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\fec_code.c" FORMNAME="" UNITNAME="fec_code.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\fft_lib.c" FORMNAME="" UNITNAME="fft_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\fs_lib.c" FORMNAME="" UNITNAME="fs_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\fsvq_cb.c" FORMNAME="" UNITNAME="fsvq_cb.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\global.c" FORMNAME="" UNITNAME="global.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\harm.c" FORMNAME="" UNITNAME="harm.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\lpc_lib.c" FORMNAME="" UNITNAME="lpc_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\mat_lib.c" FORMNAME="" UNITNAME="mat_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\math_lib.c" FORMNAME="" UNITNAME="math_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\mathdp31.c" FORMNAME="" UNITNAME="mathdp31.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\mathhalf.c" FORMNAME="" UNITNAME="mathhalf.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\melp_ana.c" FORMNAME="" UNITNAME="melp_ana.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\melp_chn.c" FORMNAME="" UNITNAME="melp_chn.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\melp_sub.c" FORMNAME="" UNITNAME="melp_sub.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\melp_syn.c" FORMNAME="" UNITNAME="melp_syn.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\melpe.c" FORMNAME="" UNITNAME="melpe.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\msvq_cb.c" FORMNAME="" UNITNAME="msvq_cb.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\npp.c" FORMNAME="" UNITNAME="npp.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\pit_lib.c" FORMNAME="" UNITNAME="pit_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\pitch.c" FORMNAME="" UNITNAME="pitch.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\postfilt.c" FORMNAME="" UNITNAME="postfilt.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\qnt12.c" FORMNAME="" UNITNAME="qnt12.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\qnt12_cb.c" FORMNAME="" UNITNAME="qnt12_cb.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\melpe_pc\vq_lib.c" FORMNAME="" UNITNAME="vq_lib.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\main.c" FORMNAME="" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\mdm_jp\plsmdm.c" FORMNAME="" UNITNAME="plsmdm.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TH\mdm_jp\pskmdm.c" FORMNAME="" UNITNAME="pskmdm.c" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+c:\program files\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX Database Components
+c:\program files\borland\cbuilder6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+c:\program files\borland\cbuilder6\Bin\dclbcbsmp60.bpl=Borland Sample Controls Design Time Package
+
+[HistoryLists\hlIncludePath]
+Count=7
+Item0=TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item1=TH\;TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item2=TH\;TH\mdm_jp;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item3=TH\mdm_jp;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item4=TH\mdm_jp;TH\;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item5=TH\;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+Item6=TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=7
+Item0=TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=TH\;TH;TH\mdm_jp;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=TH\;TH\mdm_jp;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=TH\mdm_jp;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item4=TH\mdm_jp;TH\;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item5=TH\;TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item6=TH;TH\melpe_pc;TH\mdm_pc;TH\hw_pc;TH\ecc_pc;TH\crp_pc;hw_pc;crp_pc;ecc_pc;mdm_pc;C:\Program Files\Borland\CBuilder6\Projects;D:\1\VHFMDM_PC;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
