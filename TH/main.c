@@ -85,8 +85,8 @@ unsigned char avd=0; //anti-vad trick enable
 short th(void)
 {
         short job=0; //any processing flag
-
-        //######################### MIKE TO LINE ##########################
+	
+	//######################### MIKE TO LINE ##########################
 
          i=rec_Mike(workbuf);  //grab audio from Mike
 
@@ -102,7 +102,8 @@ short th(void)
            silency=0; //clear silency flag
            if(btn) melpe_i();   //!!!!!!!!!!!!!!!!!!!!!!
           }
-          //set pointers
+
+          //set pointers
           sp_ptr=workbuf; //speech input
           md_ptr=outbuf; //line output
           M_LEVEL=get_level(sp_ptr); //get Mike level
@@ -311,7 +312,10 @@ short th(void)
           lbuf[255]=0;  //terminate string is modem statistic
           uprintf("%s", lbuf); //output over COM port
 
-          //check hardware inputs over COM port          c=GetCTSDSR();  //get state of HW control over UART          if(c&1) B_BTN|=0x02; else B_BTN&=(~0x02); //PTT (0-active)          if(c&2) DIR_BTN|=0x02; else DIR_BTN&=(~0x02); //Direct transparent mode (0-active)
+          //check hardware inputs over COM port
+          c=GetCTSDSR();  //get state of HW control over UART
+          if(c&1) B_BTN|=0x02; else B_BTN&=(~0x02); //PTT (0-active)
+          if(c&2) DIR_BTN|=0x02; else DIR_BTN&=(~0x02); //Direct transparent mode (0-active)
 		  
           play_Spc(outbuf); //play voice or carrier over speaker
          } //end of process recorded mike
