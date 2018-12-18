@@ -1,0 +1,1 @@
+void melp_syn_init(void);
